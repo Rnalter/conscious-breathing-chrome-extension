@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Conscious Breathing regular reminder",
+  "description": "A regular reminder for conscious breathing, after every x interval via chrome extension notifications",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "conscious-breathing.jpg",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "alarms",
+    "notifications"
+  ],
+  "background": {
+    "scripts" : ["popup.js"]
+  }
+}
